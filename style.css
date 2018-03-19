@@ -107,6 +107,8 @@ div.none {
     background-color: antiquewhite;
     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
     transition: width 2s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
 }
 div.none:hover {
     width: 0;
