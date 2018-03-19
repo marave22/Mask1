@@ -3,23 +3,23 @@
 } 
    .grid_content {
     display: inline-grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     position: relative;		
     width: 100%;
-    heigth: auto;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    height: auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
     justify-content: space-between;	
 }
 .pic {
-    width: 260px;
+    width: 255px;
     height: 420px;
 }
-   .hover-shadow:hover {
-   -webkit-box-shadow: -1px 2px 19px 1px rgba(235,153,153,1);
-   -moz-box-shadow: -1px 2px 19px 1px rgba(235,153,153,1);
-   box-shadow: -1px 2px 19px 1px rgba(235,153,153,1);
+.hover-shadow:hover {
+    -webkit-box-shadow: -1px 2px 19px 1px rgba(235,153,153,1);
+    -moz-box-shadow: -1px 2px 19px 1px rgba(235,153,153,1);
+    box-shadow: -1px 2px 19px 1px rgba(235,153,153,1);
 }
-  img.hover-shadow {
-  transition: 0.3s
+img.hover-shadow {
+    transition: 0.3s
 }

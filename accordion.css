@@ -1,7 +1,7 @@
 .accordion {
-font-family: "Great Vibes", cursive;
-margin: 20px 0 0 0;
-background-color: rgb(233, 150, 122);
+    font-family: "Great Vibes", cursive;
+    margin: 20px 0 0 0;
+    background-color: rgb(233, 150, 122);
     color: #444;
     cursor: pointer;
     padding: 10px;
@@ -16,12 +16,33 @@ background-color: rgb(233, 150, 122);
     background-color: rgb(250, 235, 215); 
 }
 .panel {
-font-family: 'Rammetto One', cursive;
-color: #444;
-  padding: 0 18px;
-    background-color: rgb(250, 235, 215);
+    position: relative;
+    
+    color: #444;
+    padding: 0 18px;
+    background-color: rgb(250, 235, 215);        
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-text-align: center;
+    text-align: center;
+}
+.panel-img {
+/*    position: absolute;*/
+    display: flex;
+    align-items: flex-start;
+    
+}
+.panel-text {
+/*    position: absolute;*/
+    display: inline-block;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+#type {
+    font-family: "Great Vibes", cursive;
+    background-color: rgb(250, 235, 215);
+    color: #444;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
 }
