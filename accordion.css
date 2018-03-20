@@ -11,10 +11,10 @@
     transition: 0.8s;
 }
 .hist, .colom, .moret, .pantal, .zan {
- background-color: #862366;
+    background-color: #862366;
 }
 .bau, .plag, .vol, .arle  {
-background-color: #2B3409;
+    background-color: #2B3409;
 }
 .active:hover {
     background-color: #F1DAE4; 
@@ -32,19 +32,19 @@ background-color: #2B3409;
     background-color: #F1DAE4; 
 }
 .moret:hover {
-background-color: #F1DAE4; 
+    background-color: #F1DAE4; 
 }
 .vol:hover {
-background-color: #F1DAE4; 
+    background-color: #F1DAE4; 
 }
 .pantal:hover {
-background-color: #F1DAE4; 
+    background-color: #F1DAE4; 
 }
 .arle:hover {
-background-color: #F1DAE4; 
+    background-color: #F1DAE4; 
 }
 .zan:hover {
-background-color: #F1DAE4; 
+    background-color: #F1DAE4; 
 }
 .panel {
     position: relative;
@@ -57,17 +57,28 @@ background-color: #F1DAE4;
 }
 .panel-img {
     display: inline-block;
-   position: relative;
+    position: relative;
+    border-radius: 25px;
+    margin-top: 3px;
+    -webkit-box-shadow: 0px 5px 30px 5px rgba(43,52,9,1);
+    -moz-box-shadow: 0px 5px 30px 5px rgba(43,52,9,1);
+    box-shadow: 0px 5px 30px 5px rgba(43,52,9,1);
 }
 .panel-text {
-position: absolute;
+    position: absolute;
     display: inline-block;
-text-align: right;
-font-family: 'Montserrat', sans-serif;
-overflow: visible;
-
-margin: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+    margin-top: 25px;
+    overflow: auto;
 }
+.history_text {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+    overflow: auto;
+    text-align: center;
+} 
 #type {
     font-family: 'Rammetto One', cursive;
     background-color: #F1DAE4;
@@ -77,7 +88,9 @@ margin: 15px;
     width: 100%;
 }
 .zan {
-margin-bottom: 20px;}
+    margin-bottom: 20px;
+}
 
 .hist {
-margin-top: 20px;}
+    margin-top: 20px;
+}
