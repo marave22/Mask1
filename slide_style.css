@@ -1,0 +1,39 @@
+.slide {
+ background-color: #2B3409;
+width: 100%;
+height: auto;
+position: relative;
+margin: auto;
+}
+.slides {
+    width: 390px;
+    height: 640px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.slideshow-container {
+    background-color: #7F294E;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

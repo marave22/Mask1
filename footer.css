@@ -6,7 +6,7 @@ footer {
     position: static;
     width: 100%;
     height: 100px;
-    background-color: hsl(0, 100%, 25%); 
+    background-color: #2B3409;
     text-align: center;
 }
 .material-icons {
@@ -26,10 +26,13 @@ footer {
     color: white;
 }
 .ico {
-    color: rgb(250, 235, 215); 
     padding-top: 20px;
+color: #F5EBEF;
 }
 .MA {
     font-family: 'Rammetto One', cursive;
     font-size: 12px;
 }
+.linkedin, .pinterest, .faceb, .snap, .twit, .insta, .google-p {
+text-decoration: none;
+color: #F5EBEF;}

@@ -1,8 +1,6 @@
 .accordion {
-    font-family: "Great Vibes", cursive;
-    margin: 20px 0 0 0;
-    background-color: rgb(233, 150, 122);
-    color: #444;
+    font-family: 'Rammetto One', cursive;
+    color: #819B22;
     cursor: pointer;
     padding: 10px;
     width: 100%;
@@ -12,37 +10,74 @@
     font-size: 15px;
     transition: 0.8s;
 }
-.active, .accordion:hover {
-    background-color: rgb(250, 235, 215); 
+.hist, .colom, .moret, .pantal, .zan {
+ background-color: #862366;
+}
+.bau, .plag, .vol, .arle  {
+background-color: #2B3409;
+}
+.active:hover {
+    background-color: #F1DAE4; 
+} 
+.hist:hover {
+    background-color: #F1DAE4; 
+}
+.bau:hover {
+    background-color: #F1DAE4; 
+}
+.colom:hover {
+    background-color: #F1DAE4; 
+}
+.plag:hover {
+    background-color: #F1DAE4; 
+}
+.moret:hover {
+background-color: #F1DAE4; 
+}
+.vol:hover {
+background-color: #F1DAE4; 
+}
+.pantal:hover {
+background-color: #F1DAE4; 
+}
+.arle:hover {
+background-color: #F1DAE4; 
+}
+.zan:hover {
+background-color: #F1DAE4; 
 }
 .panel {
     position: relative;
-    
-    color: #444;
+    color: #819B22;
     padding: 0 18px;
-    background-color: rgb(250, 235, 215);        
+    background-color: #F1DAE4;         
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    text-align: center;
 }
 .panel-img {
-/*    position: absolute;*/
-    display: flex;
-    align-items: flex-start;
-    
+    display: inline-block;
+   position: relative;
 }
 .panel-text {
-/*    position: absolute;*/
+position: absolute;
     display: inline-block;
-    text-align: right;
-    font-family: 'Montserrat', sans-serif;
+text-align: right;
+font-family: 'Montserrat', sans-serif;
+overflow: visible;
+
+margin: 15px;
 }
 #type {
-    font-family: "Great Vibes", cursive;
-    background-color: rgb(250, 235, 215);
-    color: #444;
+    font-family: 'Rammetto One', cursive;
+    background-color: #F1DAE4;
+    color: #819B22;
     text-align: center;
     padding: 5px;
     width: 100%;
 }
+.zan {
+margin-bottom: 20px;}
+
+.hist {
+margin-top: 20px;}
