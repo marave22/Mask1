@@ -51,7 +51,7 @@
     color: #819B22;
     padding: 0 18px;
     background-color: #F1DAE4;         
-    max-height: 0;
+max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
 }
@@ -90,7 +90,6 @@
 .zan {
     margin-bottom: 20px;
 }
-
 .hist {
     margin-top: 20px;
 }
