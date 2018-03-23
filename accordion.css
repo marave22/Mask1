@@ -51,8 +51,8 @@
     color: #819B22;
     padding: 0 18px;
     background-color: #F1DAE4;         
-max-height: 0;
-    overflow: hidden;
+    max-height: 0;
+    overflow: scroll;
     transition: max-height 0.3s ease-out;
 }
 .panel-img {
@@ -71,12 +71,10 @@ max-height: 0;
     font-family: 'Montserrat', sans-serif;
     margin: 15px;
     margin-top: 25px;
-    overflow: auto;
 }
 .history_text {
     font-family: 'Montserrat', sans-serif;
     margin: 15px;
-    overflow: auto;
     text-align: center;
 } 
 #type {
@@ -90,6 +88,7 @@ max-height: 0;
 .zan {
     margin-bottom: 20px;
 }
+
 .hist {
     margin-top: 20px;
 }
