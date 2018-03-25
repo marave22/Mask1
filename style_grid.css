@@ -17,6 +17,7 @@
     width: 255px;
     height: 420px;
     display: block;
+    margin-bottom: 20px;
 }
 .hover-shadow:hover {
 -webkit-box-shadow: -1px 2px 19px 1px rgba(127,41,78,1);
